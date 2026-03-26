@@ -1,0 +1,8 @@
+.env
+.gradio/
+.claude/
+__pycache__/
+*.pyc
+archive_ibm_aml/
+archive_dev_scripts/
+data/artifacts.pkl
