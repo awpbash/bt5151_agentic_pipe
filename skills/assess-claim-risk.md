@@ -35,7 +35,7 @@ After score-fraud-risk. The LLM analyses the claim details alongside the model's
 
 ## Output format
 
-Risk level as one of four string categories. Explanation as natural language suitable for display in the Gradio interface. The explanation should reference specific claim details (e.g. "no police report was filed" rather than "PoliceReportFiled=0").
+Risk level as one of four string categories. Explanation as natural language suitable for display in the Gradio interface. The explanation should reference specific claim details (e.g. "no police report was filed" rather than "PoliceReportFiled=0"). A business user should be able to understand the explanation and take actions on it, do not include model related technical terms. 
 
 ## Notes
 
